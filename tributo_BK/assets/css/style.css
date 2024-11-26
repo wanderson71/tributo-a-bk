@@ -1,0 +1,175 @@
+body {
+    background-image: url(../image/fundo_body_bk.jpg);
+    background-position:top;
+    background-size:auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    
+    border-radius: 10px ;
+    opacity: 0.8;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.container h1{
+    font-family: 'Segoe UI' ;
+}
+.infoPessoais{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 5px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.album_1{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-image:url(../image/ct_e_ruinas.jpg);
+    opacity: 0.85;
+    width:99.5%;
+    height: 280px;
+    border-radius: 10px;
+    
+}
+.album_1 h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: overline;
+    text-decoration-style: double;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.album_1 p{
+    color: rgb(235, 194, 12);
+    font-size:20px;
+    
+}
+#foto {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px; 
+}
+.ft_1, .ft_2, .ft_3{
+    margin-top: 20px;
+    margin-right: 5px;
+    height: 700px;
+    width: 600px;
+    border-radius: 5px;
+}
+.ft_1:hover{
+    height: 800px;
+    width: 700px;
+}
+.ft_2:hover{
+    height: 800px;
+    width: 700px;
+}
+.ft_3:hover{
+    height: 800px;
+    width: 700px;
+}
+.ft_4 img{
+    width: 99%;
+    margin: 5px;
+    padding: 5px;
+   border-radius: 10px; 
+
+}
+.album_2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-image:url(../image/gigantes_bk.jfif);
+    opacity: 0.85;
+    width:99.5%;
+    height: 180px;
+    border-radius: 10px;
+}
+.album_2 h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: overline;
+    text-decoration-style: double;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.album_2 p{
+    font-size: 20px;
+    color: rgb(0, 40, 116);
+}
+.album_3{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-image:url(../image/0LEM_bk.png);
+    opacity: 0.85;
+    width:99.5%;
+    height: 300px;
+    border-radius: 10px;
+}
+.album_3 h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(199, 170, 170);
+    text-decoration: overline;
+    text-decoration-style: double;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.album_3 p{
+    color: aliceblue;
+    font-size: 20px;
+}
+.album_4{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-image:url(../image/icarus_bk.png);
+    opacity: 0.85;
+    width:99.5%;
+    height: 310px;
+    border-radius: 10px;
+}
+.album_4 h1{
+    display: flex;
+    justify-content: center;
+    color: #bb6503;
+    text-decoration: overline;
+    text-decoration-style: double;
+    font-family: fantasy;
+    font-size: 30px
+}
+.album_4{
+    color: #d47507;
+    font-size: 20px;
+}
+#mais_inf{
+    display: flex;
+    justify-content: center;
+}
+#mais_inf p, a{
+    font-size: 15px;
+    color: aliceblue;
+    text-decoration: none;
+}
+footer{
+    background-color:rgb(222, 224, 82);
+    opacity: 0.5;
+}
+
+
